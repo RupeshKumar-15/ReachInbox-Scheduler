@@ -1,4 +1,4 @@
-# ReachInbox --- Email Scheduling & Campaign Management
+# ReachInbox - Email Scheduling & Campaign Management
 
 ReachInbox is a full-stack email scheduling application that lets users
 compose campaigns, import recipients from CSV, schedule delivery, and
