@@ -35,12 +35,17 @@ createBullBoard({
   serverAdapter,
 });
 
+
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: [
+      "http://localhost:3000",
+      "https://reachinbox-scheduler-brown-phi.vercel.app",
+    ],
     credentials: true,
   })
 );
+
 
 app.use(express.json());
 app.use("/api/emails", authenticateToken);
